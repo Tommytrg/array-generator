@@ -1,7 +1,7 @@
 {
   "name": "array-generator",
   "description": "Generates and array with the your properties",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "author": {
     "name": "Tommytrg",
@@ -17,7 +17,11 @@
   },
   "keywords": [
     "array",
-    "generator"
+    "generator",
+    "array generator",
+    "random",
+    "random-numbers",
+    "numbers"
   ],
   "dependencies": {},
   "devDependencies": {
