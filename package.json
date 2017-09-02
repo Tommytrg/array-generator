@@ -1,7 +1,7 @@
 {
   "name": "array-generator",
   "description": "Generates and array with the your properties",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "author": {
     "name": "Tommytrg",
