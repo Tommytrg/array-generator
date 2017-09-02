@@ -1,21 +1,22 @@
 {
   "name": "array-generator",
   "description": "Generates and array with the your properties",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "main": "index.js",
   "author": {
     "name": "Tommytrg",
     "email": "tomastrg22@gmail.com",
     "url": ""
   },
-
   "keywords": [
     "array",
     "generator"
   ],
-  "dependencies": { },
+  "dependencies": {},
   "devDependencies": {
     "coveralls": "latest",
+    "eslint": "^4.6.0",
+    "eslint-config-standard": "^10.2.1",
     "mocha": "latest",
     "nyc": "latest",
     "should": "latest",
@@ -32,11 +33,5 @@
     "pretest": "npm run lint",
     "test": "nyc mocha"
   },
-  "license": "MIT",
-  "standard": {
-    "globals": [
-      "describe",
-      "it"
-    ]
-  }
+  "license": "MIT"
 }
