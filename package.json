@@ -8,6 +8,13 @@
     "email": "tomastrg22@gmail.com",
     "url": ""
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tommytrg/array-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Tommytrg/array-generator/issues"
+  },
   "keywords": [
     "array",
     "generator"
