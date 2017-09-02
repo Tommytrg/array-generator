@@ -1,0 +1,42 @@
+{
+  "name": "array-generator",
+  "description": "Generates and array with the your properties",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": {
+    "name": "Tommytrg",
+    "email": "tomastrg22@gmail.com",
+    "url": ""
+  },
+
+  "keywords": [
+    "array",
+    "generator"
+  ],
+  "dependencies": { },
+  "devDependencies": {
+    "coveralls": "latest",
+    "mocha": "latest",
+    "nyc": "latest",
+    "should": "latest",
+    "standard": "latest",
+    "standard-markdown": "latest"
+  },
+  "engines": {
+    "node": ">= 8"
+  },
+  "scripts": {
+    "clean": "rm -rf node_modules",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls",
+    "lint": "standard-markdown && standard",
+    "pretest": "npm run lint",
+    "test": "nyc mocha"
+  },
+  "license": "MIT",
+  "standard": {
+    "globals": [
+      "describe",
+      "it"
+    ]
+  }
+}
